@@ -6,6 +6,8 @@ $padding: rem-calc(20);
   display: flex;
   justify-content: space-between;
 
+  padding: $padding 0;
+
   .pokemon {
     position: relative;
     display: flex;
@@ -14,7 +16,7 @@ $padding: rem-calc(20);
     width: calc(49% - 2.5rem);
     height: rem-calc(157 - 40);
 
-    padding: $padding;
+    padding: $padding $padding;
 
     border-radius: rem-calc(10);
 
